@@ -1,8 +1,9 @@
 ﻿// Tp.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 //
-
+#include "feature1.cpp"
+#include "feature1.h"
 #include <iostream>
-int a, b,c;
+double a, b,c;
 
 int main()
 {
@@ -19,7 +20,7 @@ int main()
    
     switch (c) {
     case 1:
-        std::cout << "В разработке";
+        std::cout << Sum(a, b);
         break;
     case 2:
         std::cout << "В разработке";
