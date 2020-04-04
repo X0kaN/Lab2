@@ -3,6 +3,7 @@
 
 double Sub(double, double);
 
+double Del(double, double);
 
 #endif // __FEATURE2_H__ 
 
