@@ -1,8 +1,11 @@
 ﻿// Tp.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 //
-
+#include "feature1.cpp"
+#include "feature1.h"
+#include "feature2.cpp"
+#include "feature2.h"
 #include <iostream>
-int a, b,c;
+double a, b,c;
 
 int main()
 {
@@ -19,10 +22,10 @@ int main()
    
     switch (c) {
     case 1:
-        std::cout << "В разработке";
+        std::cout << Sum(a, b);
         break;
     case 2:
-        std::cout << "В разработке";
+        std::cout << Sub(a,b);
         break;
     case 3:
         std::cout << "В разработке";
@@ -32,7 +35,7 @@ int main()
         break;
     }
 }
-
+// RELEASE 1
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
 // Отладка программы: F5 или меню "Отладка" > "Запустить отладку"
 
