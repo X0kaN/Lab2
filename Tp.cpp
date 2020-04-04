@@ -2,6 +2,8 @@
 //
 #include "feature1.cpp"
 #include "feature1.h"
+#include "feature2.cpp"
+#include "feature2.h"
 #include <iostream>
 double a, b,c;
 
@@ -23,7 +25,7 @@ int main()
         std::cout << Sum(a, b);
         break;
     case 2:
-        std::cout << "В разработке";
+        std::cout << Sub(a,b);
         break;
     case 3:
         std::cout << "В разработке";
