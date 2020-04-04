@@ -28,10 +28,10 @@ int main()
         std::cout << Sub(a,b);
         break;
     case 3:
-        std::cout << "В разработке";
+        std::cout << Pro(a, b);
         break;
     case 4:
-        std::cout << "В разработке";
+        std::cout << Del(a, b);
         break;
     }
 }
